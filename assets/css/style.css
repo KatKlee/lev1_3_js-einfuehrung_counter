@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin: 20vh auto;
+    width: 260px;
+    height: 260px;
+    background: rgb(125, 238, 12);
+    background: linear-gradient(45deg, rgba(125, 238, 12, 1) 0%, rgba(0, 200, 255, 1) 100%);
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 70px;
+    padding: 2px 0;
+}
